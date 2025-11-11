@@ -1,7 +1,9 @@
-theme = "fleet_dark"
+theme = "catppuccin_macchiato"
 
 [editor]
 line-number = "relative"
+cursorline = true
+color-modes= true 
 mouse = false
 
 [editor.cursor-shape]
@@ -11,3 +13,7 @@ select = "underline"
 
 [editor.file-picker]
 hidden = false
+
+[editor.indent-guides]
+render = true
+

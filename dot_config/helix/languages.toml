@@ -1,11 +1,11 @@
 [[language]]
 name = "python"
-language-servers = ["pyright"]
+language-servers = ["ruff"]
 auto-format = false
 
-[language-server.pyright]
-command = "pyright-langserver"
-args = ["--stdio"]
+[language-server.ruff]
+command = "ruff"
+args = ["server"]
 
 
 [[language]]

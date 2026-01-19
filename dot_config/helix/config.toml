@@ -1,5 +1,4 @@
 theme = "jellybeans"
-#theme = "emacs"
 
 [editor]
 line-number = "relative"

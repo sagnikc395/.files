@@ -1,9 +1,0 @@
-import { collection } from "./client";
-
-export async function addData(): Promise<void> {
-  return await collection.add({
-    //this comes from an API
-    ids: ["id1", "id2"],
-    documents: ["Document about pineapple", "Document about oranges"],
-  });
-}

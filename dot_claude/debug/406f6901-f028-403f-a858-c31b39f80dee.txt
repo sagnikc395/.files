@@ -1,0 +1,79 @@
+2026-02-26T21:48:22.097Z [DEBUG] detectFileEncoding failed for expected reason: ENOENT
+2026-02-26T21:48:22.097Z [DEBUG] MDM settings load completed in 9ms
+2026-02-26T21:48:22.143Z [ERROR] Failed to save config with lock: Error: ENOENT: no such file or directory, lstat '/Users/sagnikc/.claude.json'
+2026-02-26T21:48:22.143Z [DEBUG] Writing to temp file: /Users/sagnikc/.claude.json.tmp.1361.1772142502143
+2026-02-26T21:48:22.143Z [DEBUG] Setting permissions for new file: 600
+2026-02-26T21:48:22.143Z [DEBUG] Temp file written successfully, size: 50 bytes
+2026-02-26T21:48:22.143Z [DEBUG] Renaming /Users/sagnikc/.claude.json.tmp.1361.1772142502143 to /Users/sagnikc/.claude.json
+2026-02-26T21:48:22.144Z [DEBUG] File /Users/sagnikc/.claude.json written atomically
+2026-02-26T21:48:22.144Z [DEBUG] [init] configureGlobalMTLS starting
+2026-02-26T21:48:22.144Z [DEBUG] [init] configureGlobalMTLS complete
+2026-02-26T21:48:22.144Z [DEBUG] [init] configureGlobalAgents starting
+2026-02-26T21:48:22.144Z [DEBUG] [init] configureGlobalAgents complete
+2026-02-26T21:48:22.144Z [DEBUG] Writing to temp file: /Users/sagnikc/.claude.json.tmp.1361.1772142502144
+2026-02-26T21:48:22.144Z [DEBUG] Preserving file permissions: 100600
+2026-02-26T21:48:22.145Z [DEBUG] Temp file written successfully, size: 86 bytes
+2026-02-26T21:48:22.145Z [DEBUG] Applied original permissions to temp file
+2026-02-26T21:48:22.145Z [DEBUG] Renaming /Users/sagnikc/.claude.json.tmp.1361.1772142502144 to /Users/sagnikc/.claude.json
+2026-02-26T21:48:22.145Z [DEBUG] File /Users/sagnikc/.claude.json written atomically
+2026-02-26T21:48:22.145Z [DEBUG] Writing to temp file: /Users/sagnikc/.claude.json.tmp.1361.1772142502145
+2026-02-26T21:48:22.145Z [DEBUG] Preserving file permissions: 100600
+2026-02-26T21:48:22.145Z [DEBUG] Temp file written successfully, size: 125 bytes
+2026-02-26T21:48:22.145Z [DEBUG] Applied original permissions to temp file
+2026-02-26T21:48:22.145Z [DEBUG] Renaming /Users/sagnikc/.claude.json.tmp.1361.1772142502145 to /Users/sagnikc/.claude.json
+2026-02-26T21:48:22.145Z [DEBUG] File /Users/sagnikc/.claude.json written atomically
+2026-02-26T21:48:22.147Z [DEBUG] Loading skills from: managed=/Library/Application Support/ClaudeCode/.claude/skills, user=/Users/sagnikc/.claude/skills, project=[]
+2026-02-26T21:48:22.147Z [DEBUG] Error log sink initialized
+2026-02-26T21:48:22.149Z [DEBUG] Git remote URL: null
+2026-02-26T21:48:22.149Z [DEBUG] No git remote URL found
+2026-02-26T21:48:22.151Z [DEBUG] [render] initLayout starting
+2026-02-26T21:48:22.153Z [DEBUG] Loaded 0 unique skills (0 unconditional, 0 conditional, managed: 0, user: 0, project: 0, additional: 0, legacy commands: 0)
+2026-02-26T21:48:22.154Z [DEBUG] [Claude in Chrome] Found chrome profiles: Profile 1
+2026-02-26T21:48:22.154Z [DEBUG] installed_plugins.json doesn't exist, returning empty V2 object
+2026-02-26T21:48:22.154Z [DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+2026-02-26T21:48:22.154Z [DEBUG] getPluginSkills: Processing 0 enabled plugins
+2026-02-26T21:48:22.154Z [DEBUG] Total plugin skills loaded: 0
+2026-02-26T21:48:22.154Z [DEBUG] Total plugin commands loaded: 0
+2026-02-26T21:48:22.154Z [DEBUG] Registered 0 hooks from 0 plugins
+2026-02-26T21:48:22.154Z [DEBUG] getSkills returning: 0 skill dir commands, 0 plugin skills, 3 bundled skills
+2026-02-26T21:48:22.155Z [DEBUG] Writing to temp file: /Users/sagnikc/.claude.json.tmp.1361.1772142502155
+2026-02-26T21:48:22.155Z [DEBUG] Preserving file permissions: 100600
+2026-02-26T21:48:22.155Z [DEBUG] Temp file written successfully, size: 205 bytes
+2026-02-26T21:48:22.155Z [DEBUG] Applied original permissions to temp file
+2026-02-26T21:48:22.155Z [DEBUG] Renaming /Users/sagnikc/.claude.json.tmp.1361.1772142502155 to /Users/sagnikc/.claude.json
+2026-02-26T21:48:22.155Z [DEBUG] File /Users/sagnikc/.claude.json written atomically
+2026-02-26T21:48:22.157Z [DEBUG] [render] initLayout complete
+2026-02-26T21:48:22.160Z [DEBUG] Install: Starting installation process (force=false, target=undefined)
+2026-02-26T21:48:22.160Z [DEBUG] Install: Calling installLatest(channelOrVersion=latest, forceReinstall=false)
+2026-02-26T21:48:22.161Z [DEBUG] [render] first ink render: 244ms since process start
+2026-02-26T21:48:22.161Z [DEBUG] [Claude in Chrome] Found brave profiles: Default
+2026-02-26T21:48:22.164Z [DEBUG] [Claude in Chrome] Found arc profiles: Default
+2026-02-26T21:48:22.165Z [DEBUG] [Claude in Chrome] Extension not found in any browser
+2026-02-26T21:48:22.165Z [DEBUG] Writing to temp file: /Users/sagnikc/.claude.json.tmp.1361.1772142502165
+2026-02-26T21:48:22.165Z [DEBUG] Preserving file permissions: 100600
+2026-02-26T21:48:22.165Z [DEBUG] Temp file written successfully, size: 248 bytes
+2026-02-26T21:48:22.165Z [DEBUG] Applied original permissions to temp file
+2026-02-26T21:48:22.165Z [DEBUG] Renaming /Users/sagnikc/.claude.json.tmp.1361.1772142502165 to /Users/sagnikc/.claude.json
+2026-02-26T21:48:22.165Z [DEBUG] File /Users/sagnikc/.claude.json written atomically
+2026-02-26T21:48:22.806Z [DEBUG] Writing to temp file: /Users/sagnikc/.claude.json.tmp.1361.1772142502806
+2026-02-26T21:48:22.806Z [DEBUG] Preserving file permissions: 100600
+2026-02-26T21:48:22.807Z [DEBUG] Temp file written successfully, size: 289 bytes
+2026-02-26T21:48:22.807Z [DEBUG] Applied original permissions to temp file
+2026-02-26T21:48:22.807Z [DEBUG] Renaming /Users/sagnikc/.claude.json.tmp.1361.1772142502806 to /Users/sagnikc/.claude.json
+2026-02-26T21:48:22.807Z [DEBUG] File /Users/sagnikc/.claude.json written atomically
+2026-02-26T21:48:23.075Z [DEBUG] Checking for native installer update to version 2.1.59
+2026-02-26T21:48:23.081Z [DEBUG] Downloading native installer version 2.1.59
+2026-02-26T21:48:32.165Z [ERROR] Error: Error: 1P event logging: 8 events failed to export (code=ECONNREFUSED, ECONNREFUSED)
+    at queueFailedEvents (/$bunfs/root/claude:6252:2350)
+    at async doExport (/$bunfs/root/claude:6252:1257)
+    at processTicksAndRejections (native:7:39)
+2026-02-26T22:04:45.477Z [DEBUG] Download stalled on attempt 1/3, retrying...
+2026-02-26T22:04:46.487Z [ERROR] Error: Error: Failed to download binary from https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.59/darwin-arm64/claude: ECONNREFUSED
+    at e38 (/$bunfs/root/claude:2439:4320)
+    at async jUB (/$bunfs/root/claude:2439:4410)
+    at async CO8 (/$bunfs/root/claude:2439:23068)
+    at async WO8 (/$bunfs/root/claude:2439:25230)
+    at async mp (/$bunfs/root/claude:2441:170)
+    at async D (/$bunfs/root/claude:11706:1222)
+    at processTicksAndRejections (native:7:39)
+2026-02-26T22:04:46.487Z [ERROR] Install command failed: Error: ECONNREFUSED

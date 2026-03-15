@@ -1,0 +1,53 @@
+2026-02-26T22:28:08.069Z [DEBUG] detectFileEncoding failed for expected reason: ENOENT
+2026-02-26T22:28:08.069Z [DEBUG] MDM settings load completed in 11ms
+2026-02-26T22:28:08.100Z [DEBUG] [init] configureGlobalMTLS starting
+2026-02-26T22:28:08.100Z [DEBUG] [init] configureGlobalMTLS complete
+2026-02-26T22:28:08.100Z [DEBUG] [init] configureGlobalAgents starting
+2026-02-26T22:28:08.100Z [DEBUG] [init] configureGlobalAgents complete
+2026-02-26T22:28:08.103Z [DEBUG] Loading skills from: managed=/Library/Application Support/ClaudeCode/.claude/skills, user=/Users/sagnikc/.claude/skills, project=[]
+2026-02-26T22:28:08.103Z [DEBUG] Error log sink initialized
+2026-02-26T22:28:08.107Z [DEBUG] Git remote URL: null
+2026-02-26T22:28:08.107Z [DEBUG] No git remote URL found
+2026-02-26T22:28:08.110Z [DEBUG] Loaded 0 unique skills (0 unconditional, 0 conditional, managed: 0, user: 0, project: 0, additional: 0, legacy commands: 0)
+2026-02-26T22:28:08.110Z [DEBUG] [render] initLayout starting
+2026-02-26T22:28:08.111Z [DEBUG] [Claude in Chrome] Found chrome profiles: Profile 1
+2026-02-26T22:28:08.111Z [DEBUG] installed_plugins.json doesn't exist, returning empty V2 object
+2026-02-26T22:28:08.112Z [DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+2026-02-26T22:28:08.112Z [DEBUG] getPluginSkills: Processing 0 enabled plugins
+2026-02-26T22:28:08.112Z [DEBUG] Total plugin skills loaded: 0
+2026-02-26T22:28:08.112Z [DEBUG] Total plugin commands loaded: 0
+2026-02-26T22:28:08.112Z [DEBUG] Registered 0 hooks from 0 plugins
+2026-02-26T22:28:08.112Z [DEBUG] getSkills returning: 0 skill dir commands, 0 plugin skills, 3 bundled skills
+2026-02-26T22:28:08.114Z [DEBUG] [render] initLayout complete
+2026-02-26T22:28:08.118Z [DEBUG] Install: Starting installation process (force=false, target=undefined)
+2026-02-26T22:28:08.118Z [DEBUG] Install: Calling installLatest(channelOrVersion=latest, forceReinstall=false)
+2026-02-26T22:28:08.119Z [DEBUG] [render] first ink render: 241ms since process start
+2026-02-26T22:28:08.119Z [DEBUG] [Claude in Chrome] Found brave profiles: Default
+2026-02-26T22:28:08.123Z [DEBUG] [Claude in Chrome] Found arc profiles: Default
+2026-02-26T22:28:08.123Z [DEBUG] [Claude in Chrome] Extension not found in any browser
+2026-02-26T22:28:08.318Z [DEBUG] Writing to temp file: /Users/sagnikc/.claude.json.tmp.1617.1772144888318
+2026-02-26T22:28:08.318Z [DEBUG] Preserving file permissions: 100600
+2026-02-26T22:28:08.318Z [DEBUG] Temp file written successfully, size: 289 bytes
+2026-02-26T22:28:08.318Z [DEBUG] Applied original permissions to temp file
+2026-02-26T22:28:08.318Z [DEBUG] Renaming /Users/sagnikc/.claude.json.tmp.1617.1772144888318 to /Users/sagnikc/.claude.json
+2026-02-26T22:28:08.318Z [DEBUG] File /Users/sagnikc/.claude.json written atomically
+2026-02-26T22:28:08.348Z [DEBUG] Checking for native installer update to version 2.1.59
+2026-02-26T22:28:08.350Z [DEBUG] Downloading native installer version 2.1.59
+2026-02-26T22:28:19.363Z [DEBUG] Atomically installed binary to /Users/sagnikc/.local/share/claude/versions/2.1.59
+2026-02-26T22:28:19.366Z [DEBUG] Could not remove empty directory at /Users/sagnikc/.local/bin/claude: Error: ENOENT: no such file or directory, stat '/Users/sagnikc/.local/bin/claude'
+2026-02-26T22:28:19.366Z [DEBUG] Created directory /Users/sagnikc/.local/bin for symlink
+2026-02-26T22:28:19.366Z [DEBUG] Atomically updated symlink /Users/sagnikc/.local/bin/claude -> /Users/sagnikc/.local/share/claude/versions/2.1.59
+2026-02-26T22:28:19.366Z [DEBUG] Successfully updated to version 2.1.59
+2026-02-26T22:28:19.367Z [DEBUG] Writing to temp file: /Users/sagnikc/.claude.json.tmp.1617.1772144899367
+2026-02-26T22:28:19.367Z [DEBUG] Preserving file permissions: 100600
+2026-02-26T22:28:19.367Z [DEBUG] Temp file written successfully, size: 383 bytes
+2026-02-26T22:28:19.367Z [DEBUG] Applied original permissions to temp file
+2026-02-26T22:28:19.367Z [DEBUG] Renaming /Users/sagnikc/.claude.json.tmp.1617.1772144899367 to /Users/sagnikc/.claude.json
+2026-02-26T22:28:19.367Z [DEBUG] File /Users/sagnikc/.claude.json written atomically
+2026-02-26T22:28:19.367Z [DEBUG] Native installer: Set installMethod to "native" and disabled legacy auto-updater for protection
+2026-02-26T22:28:19.367Z [DEBUG] Install: installLatest returned version=2.1.59, wasUpdated=true, lockFailed=false
+2026-02-26T22:28:19.370Z [DEBUG] Install: Setup launcher completed with 0 messages
+2026-02-26T22:28:19.370Z [DEBUG] Install: Cleaning up npm installations after successful install
+2026-02-26T22:28:20.026Z [DEBUG] Removed global npm installation of @anthropic-ai/claude-code
+2026-02-26T22:28:20.026Z [DEBUG] Cleaned up 1 npm installation(s)
+2026-02-26T22:28:20.030Z [DEBUG] Install: Shell PATH already configured

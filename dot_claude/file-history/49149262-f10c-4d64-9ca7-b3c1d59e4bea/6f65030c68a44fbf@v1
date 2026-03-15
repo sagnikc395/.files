@@ -1,0 +1,29 @@
+// server action just sees like a function call
+
+import prisma from "@/utils/db";
+import { NextRequest, NextResponse } from "next/server";
+
+export async function solve(email: string,password: string) {
+  try {
+    await prisma.user.create({
+      data: {
+        email: email,
+        password: password,
+      },
+      return NextResponse.json({
+        email,
+        password
+      })
+    });
+  } catch (e) {
+    console.log(e);
+    return NextResponse.json(
+      {
+        message: "error while signing up",
+      },
+      {
+        status: 411,
+      },
+    );
+  }
+}

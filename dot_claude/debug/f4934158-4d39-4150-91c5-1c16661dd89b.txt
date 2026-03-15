@@ -1,0 +1,580 @@
+2026-02-26T22:28:36.854Z [DEBUG] detectFileEncoding failed for expected reason: ENOENT
+2026-02-26T22:28:36.854Z [DEBUG] MDM settings load completed in 9ms
+2026-02-26T22:28:36.880Z [DEBUG] [init] configureGlobalMTLS starting
+2026-02-26T22:28:36.880Z [DEBUG] [init] configureGlobalMTLS complete
+2026-02-26T22:28:36.880Z [DEBUG] [init] configureGlobalAgents starting
+2026-02-26T22:28:36.880Z [DEBUG] [init] configureGlobalAgents complete
+2026-02-26T22:28:36.882Z [DEBUG] [STARTUP] Loading MCP configs...
+2026-02-26T22:28:36.883Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-02-26T22:28:36.883Z [DEBUG] [STARTUP] Running setup()...
+2026-02-26T22:28:36.884Z [DEBUG] Loading skills from: managed=/Library/Application Support/ClaudeCode/.claude/skills, user=/Users/sagnikc/.claude/skills, project=[]
+2026-02-26T22:28:36.884Z [DEBUG] Error log sink initialized
+2026-02-26T22:28:36.887Z [DEBUG] Git remote URL: null
+2026-02-26T22:28:36.887Z [DEBUG] No git remote URL found
+2026-02-26T22:28:36.888Z [DEBUG] [STARTUP] setup() completed in 5ms
+2026-02-26T22:28:36.888Z [DEBUG] [STARTUP] Loading commands and agents...
+2026-02-26T22:28:36.888Z [DEBUG] Loaded 0 unique skills (0 unconditional, 0 conditional, managed: 0, user: 0, project: 0, additional: 0, legacy commands: 0)
+2026-02-26T22:28:36.889Z [DEBUG] [Claude in Chrome] Found chrome profiles: Profile 1
+2026-02-26T22:28:36.889Z [DEBUG] installed_plugins.json doesn't exist, returning empty V2 object
+2026-02-26T22:28:36.889Z [DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+2026-02-26T22:28:36.889Z [DEBUG] getPluginSkills: Processing 0 enabled plugins
+2026-02-26T22:28:36.889Z [DEBUG] Total plugin skills loaded: 0
+2026-02-26T22:28:36.889Z [DEBUG] Total plugin commands loaded: 0
+2026-02-26T22:28:36.889Z [DEBUG] Registered 0 hooks from 0 plugins
+2026-02-26T22:28:36.889Z [DEBUG] Total plugin agents loaded: 0
+2026-02-26T22:28:36.889Z [DEBUG] getSkills returning: 0 skill dir commands, 0 plugin skills, 3 bundled skills
+2026-02-26T22:28:36.889Z [DEBUG] Writing to temp file: /Users/sagnikc/.claude.json.tmp.1822.1772144916889
+2026-02-26T22:28:36.889Z [DEBUG] Preserving file permissions: 100600
+2026-02-26T22:28:36.890Z [DEBUG] Temp file written successfully, size: 460 bytes
+2026-02-26T22:28:36.890Z [DEBUG] Applied original permissions to temp file
+2026-02-26T22:28:36.890Z [DEBUG] Renaming /Users/sagnikc/.claude.json.tmp.1822.1772144916889 to /Users/sagnikc/.claude.json
+2026-02-26T22:28:36.890Z [DEBUG] File /Users/sagnikc/.claude.json written atomically
+2026-02-26T22:28:36.890Z [DEBUG] [STARTUP] Commands and agents loaded in 2ms
+2026-02-26T22:28:36.893Z [DEBUG] [STARTUP] Running showSetupScreens()...
+2026-02-26T22:28:37.083Z [DEBUG] [keybindings] KeybindingSetup initialized with 102 bindings, 0 warnings
+2026-02-26T22:28:37.096Z [DEBUG] [keybindings] Skipping file watcher - user customization disabled
+2026-02-26T22:28:37.101Z [DEBUG] [Claude in Chrome] Found brave profiles: Default
+2026-02-26T22:28:37.101Z [DEBUG] Acquired mtime-based lock on running version: /Users/sagnikc/.local/share/claude/versions/2.1.59
+2026-02-26T22:28:37.101Z [DEBUG] [Claude in Chrome] Found arc profiles: Default
+2026-02-26T22:28:37.106Z [DEBUG] [Claude in Chrome] Extension not found in any browser
+2026-02-26T22:28:37.108Z [DEBUG] Writing to temp file: /Users/sagnikc/.claude.json.tmp.1822.1772144917108
+2026-02-26T22:28:37.108Z [DEBUG] Preserving file permissions: 100600
+2026-02-26T22:28:37.108Z [DEBUG] Temp file written successfully, size: 460 bytes
+2026-02-26T22:28:37.108Z [DEBUG] Applied original permissions to temp file
+2026-02-26T22:28:37.108Z [DEBUG] Renaming /Users/sagnikc/.claude.json.tmp.1822.1772144917108 to /Users/sagnikc/.claude.json
+2026-02-26T22:28:37.108Z [DEBUG] File /Users/sagnikc/.claude.json written atomically
+2026-02-26T22:28:37.262Z [DEBUG] High write ratio: blit=0, write=1865 (100.0% writes), screen=36x154
+2026-02-26T22:28:37.277Z [DEBUG] High write ratio: blit=0, write=1865 (100.0% writes), screen=36x154
+2026-02-26T22:28:40.165Z [DEBUG] High write ratio: blit=0, write=1855 (100.0% writes), screen=36x154
+2026-02-26T22:28:40.400Z [DEBUG] High write ratio: blit=0, write=1865 (100.0% writes), screen=36x154
+2026-02-26T22:28:41.025Z [DEBUG] High write ratio: blit=0, write=1855 (100.0% writes), screen=36x154
+2026-02-26T22:28:41.535Z [DEBUG] High write ratio: blit=0, write=1853 (100.0% writes), screen=36x154
+2026-02-26T22:28:42.378Z [DEBUG] High write ratio: blit=0, write=1853 (100.0% writes), screen=36x154
+2026-02-26T22:28:42.765Z [DEBUG] High write ratio: blit=0, write=1853 (100.0% writes), screen=36x154
+2026-02-26T22:28:42.992Z [DEBUG] High write ratio: blit=0, write=1855 (100.0% writes), screen=36x154
+2026-02-26T22:28:43.200Z [DEBUG] High write ratio: blit=0, write=1865 (100.0% writes), screen=36x154
+2026-02-26T22:28:43.348Z [DEBUG] High write ratio: blit=0, write=1855 (100.0% writes), screen=36x154
+2026-02-26T22:28:43.780Z [DEBUG] High write ratio: blit=0, write=1865 (100.0% writes), screen=36x154
+2026-02-26T22:28:44.865Z [DEBUG] Writing to temp file: /Users/sagnikc/.claude.json.tmp.1822.1772144924865
+2026-02-26T22:28:44.865Z [DEBUG] Preserving file permissions: 100600
+2026-02-26T22:28:44.866Z [DEBUG] Temp file written successfully, size: 460 bytes
+2026-02-26T22:28:44.866Z [DEBUG] Applied original permissions to temp file
+2026-02-26T22:28:44.866Z [DEBUG] Renaming /Users/sagnikc/.claude.json.tmp.1822.1772144924865 to /Users/sagnikc/.claude.json
+2026-02-26T22:28:44.866Z [DEBUG] File /Users/sagnikc/.claude.json written atomically
+2026-02-26T22:28:44.868Z [DEBUG] Writing to temp file: /Users/sagnikc/.claude.json.tmp.1822.1772144924868
+2026-02-26T22:28:44.868Z [DEBUG] Preserving file permissions: 100600
+2026-02-26T22:28:44.868Z [DEBUG] Temp file written successfully, size: 460 bytes
+2026-02-26T22:28:44.868Z [DEBUG] Applied original permissions to temp file
+2026-02-26T22:28:44.868Z [DEBUG] Renaming /Users/sagnikc/.claude.json.tmp.1822.1772144924868 to /Users/sagnikc/.claude.json
+2026-02-26T22:28:44.868Z [DEBUG] File /Users/sagnikc/.claude.json written atomically
+2026-02-26T22:28:44.877Z [DEBUG] High write ratio: blit=0, write=1222 (100.0% writes), screen=28x154
+2026-02-26T22:28:56.393Z [ERROR] Error: Error: Failed to delete keychain entry
+    at rcB (/$bunfs/root/claude:3655:6018)
+    at async zD0 (/$bunfs/root/claude:6272:685)
+    at async cbA (/$bunfs/root/claude:6272:589)
+    at async fdT (/$bunfs/root/claude:2418:2222)
+    at async gdT (/$bunfs/root/claude:2442:5405)
+    at async <anonymous> (/$bunfs/root/claude:2458:3956)
+    at processTicksAndRejections (native:7:39)
+2026-02-26T22:28:56.394Z [DEBUG] Writing to temp file: /Users/sagnikc/.claude.json.tmp.1822.1772144936394
+2026-02-26T22:28:56.394Z [DEBUG] Preserving file permissions: 100600
+2026-02-26T22:28:56.394Z [DEBUG] Temp file written successfully, size: 460 bytes
+2026-02-26T22:28:56.395Z [DEBUG] Applied original permissions to temp file
+2026-02-26T22:28:56.395Z [DEBUG] Renaming /Users/sagnikc/.claude.json.tmp.1822.1772144936394 to /Users/sagnikc/.claude.json
+2026-02-26T22:28:56.395Z [DEBUG] File /Users/sagnikc/.claude.json written atomically
+2026-02-26T22:28:56.439Z [DEBUG] Writing to temp file: /Users/sagnikc/.claude.json.tmp.1822.1772144936439
+2026-02-26T22:28:56.439Z [DEBUG] Preserving file permissions: 100600
+2026-02-26T22:28:56.439Z [DEBUG] Temp file written successfully, size: 460 bytes
+2026-02-26T22:28:56.439Z [DEBUG] Applied original permissions to temp file
+2026-02-26T22:28:56.439Z [DEBUG] Renaming /Users/sagnikc/.claude.json.tmp.1822.1772144936439 to /Users/sagnikc/.claude.json
+2026-02-26T22:28:56.439Z [DEBUG] File /Users/sagnikc/.claude.json written atomically
+2026-02-26T22:28:56.439Z [DEBUG] Writing to temp file: /Users/sagnikc/.claude.json.tmp.1822.1772144936439
+2026-02-26T22:28:56.439Z [DEBUG] Preserving file permissions: 100600
+2026-02-26T22:28:56.439Z [DEBUG] Temp file written successfully, size: 882 bytes
+2026-02-26T22:28:56.439Z [DEBUG] Applied original permissions to temp file
+2026-02-26T22:28:56.439Z [DEBUG] Renaming /Users/sagnikc/.claude.json.tmp.1822.1772144936439 to /Users/sagnikc/.claude.json
+2026-02-26T22:28:56.439Z [DEBUG] File /Users/sagnikc/.claude.json written atomically
+2026-02-26T22:28:56.701Z [DEBUG] Writing to temp file: /Users/sagnikc/.claude.json.tmp.1822.1772144936701
+2026-02-26T22:28:56.701Z [DEBUG] Preserving file permissions: 100600
+2026-02-26T22:28:56.702Z [DEBUG] Temp file written successfully, size: 1014 bytes
+2026-02-26T22:28:56.702Z [DEBUG] Applied original permissions to temp file
+2026-02-26T22:28:56.702Z [DEBUG] Renaming /Users/sagnikc/.claude.json.tmp.1822.1772144936701 to /Users/sagnikc/.claude.json
+2026-02-26T22:28:56.702Z [DEBUG] File /Users/sagnikc/.claude.json written atomically
+2026-02-26T22:28:57.183Z [DEBUG] Writing to temp file: /Users/sagnikc/.claude.json.tmp.1822.1772144937183
+2026-02-26T22:28:57.183Z [DEBUG] Preserving file permissions: 100600
+2026-02-26T22:28:57.184Z [DEBUG] Temp file written successfully, size: 1075 bytes
+2026-02-26T22:28:57.184Z [DEBUG] Applied original permissions to temp file
+2026-02-26T22:28:57.184Z [DEBUG] Renaming /Users/sagnikc/.claude.json.tmp.1822.1772144937183 to /Users/sagnikc/.claude.json
+2026-02-26T22:28:57.184Z [DEBUG] File /Users/sagnikc/.claude.json written atomically
+2026-02-26T22:28:57.185Z [DEBUG] Skipping Notification:auth_success hook execution - workspace trust not accepted
+2026-02-26T22:29:02.288Z [DEBUG] High write ratio: blit=0, write=1160 (100.0% writes), screen=28x154
+2026-02-26T22:29:06.584Z [DEBUG] Writing to temp file: /Users/sagnikc/.claude.json.tmp.1822.1772144946584
+2026-02-26T22:29:06.584Z [DEBUG] Preserving file permissions: 100600
+2026-02-26T22:29:06.584Z [DEBUG] Temp file written successfully, size: 1146 bytes
+2026-02-26T22:29:06.585Z [DEBUG] Applied original permissions to temp file
+2026-02-26T22:29:06.585Z [DEBUG] Renaming /Users/sagnikc/.claude.json.tmp.1822.1772144946584 to /Users/sagnikc/.claude.json
+2026-02-26T22:29:06.585Z [DEBUG] File /Users/sagnikc/.claude.json written atomically
+2026-02-26T22:29:13.038Z [DEBUG] Writing to temp file: /Users/sagnikc/.claude.json.tmp.1822.1772144953038
+2026-02-26T22:29:13.038Z [DEBUG] Preserving file permissions: 100600
+2026-02-26T22:29:13.038Z [DEBUG] Temp file written successfully, size: 1541 bytes
+2026-02-26T22:29:13.038Z [DEBUG] Applied original permissions to temp file
+2026-02-26T22:29:13.038Z [DEBUG] Renaming /Users/sagnikc/.claude.json.tmp.1822.1772144953038 to /Users/sagnikc/.claude.json
+2026-02-26T22:29:13.038Z [DEBUG] File /Users/sagnikc/.claude.json written atomically
+2026-02-26T22:29:13.041Z [DEBUG] Grove: No cache, fetching config in background (dialog skipped this session)
+2026-02-26T22:29:13.043Z [DEBUG] Not in a GitHub repository, skipping path mapping update
+2026-02-26T22:29:13.043Z [DEBUG] [Perfetto] initializePerfettoTracing called, env value: undefined
+2026-02-26T22:29:13.043Z [DEBUG] [3P telemetry] isTelemetryEnabled=false (CLAUDE_CODE_ENABLE_TELEMETRY=undefined)
+2026-02-26T22:29:13.045Z [DEBUG] [STARTUP] showSetupScreens() completed in 36152ms
+2026-02-26T22:29:13.045Z [DEBUG] Programmatic settings change notification for policySettings
+2026-02-26T22:29:13.045Z [DEBUG] Plugin hooks: skipping reload, enabledPlugins unchanged
+2026-02-26T22:29:13.045Z [DEBUG] Settings changed from policySettings, updating app state
+2026-02-26T22:29:13.045Z [DEBUG] Replacing all allow rules for destination 'userSettings' with 0 rule(s): []
+2026-02-26T22:29:13.045Z [DEBUG] Replacing all deny rules for destination 'userSettings' with 0 rule(s): []
+2026-02-26T22:29:13.045Z [DEBUG] Replacing all ask rules for destination 'userSettings' with 0 rule(s): []
+2026-02-26T22:29:13.045Z [DEBUG] Replacing all allow rules for destination 'projectSettings' with 0 rule(s): []
+2026-02-26T22:29:13.045Z [DEBUG] Replacing all deny rules for destination 'projectSettings' with 0 rule(s): []
+2026-02-26T22:29:13.045Z [DEBUG] Replacing all ask rules for destination 'projectSettings' with 0 rule(s): []
+2026-02-26T22:29:13.045Z [DEBUG] Replacing all allow rules for destination 'localSettings' with 0 rule(s): []
+2026-02-26T22:29:13.045Z [DEBUG] Replacing all deny rules for destination 'localSettings' with 0 rule(s): []
+2026-02-26T22:29:13.045Z [DEBUG] Replacing all ask rules for destination 'localSettings' with 0 rule(s): []
+2026-02-26T22:29:13.046Z [DEBUG] [LSP MANAGER] initializeLspServerManager() called
+2026-02-26T22:29:13.046Z [DEBUG] [LSP MANAGER] Created manager instance, state=pending
+2026-02-26T22:29:13.046Z [DEBUG] [LSP MANAGER] Starting async initialization (generation 1)
+2026-02-26T22:29:13.046Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-02-26T22:29:13.046Z [DEBUG] [API:auth] OAuth token check starting
+2026-02-26T22:29:13.048Z [DEBUG] Total LSP servers loaded: 0
+2026-02-26T22:29:13.048Z [DEBUG] [STARTUP] MCP configs loaded in 36166ms
+2026-02-26T22:29:13.052Z [DEBUG] [LSP SERVER MANAGER] getAllLspServers returned 0 server(s)
+2026-02-26T22:29:13.052Z [DEBUG] LSP manager initialized with 0 servers
+2026-02-26T22:29:13.052Z [DEBUG] [API:auth] OAuth token check complete
+2026-02-26T22:29:13.053Z [DEBUG] Getting matching hook commands for SessionStart with query: startup
+2026-02-26T22:29:13.053Z [DEBUG] Found 0 hook matchers in settings
+2026-02-26T22:29:13.053Z [DEBUG] Matched 0 unique hooks for query "startup" (0 before deduplication)
+2026-02-26T22:29:13.053Z [DEBUG] Initialized versioned plugins system with 0 plugins
+2026-02-26T22:29:13.053Z [DEBUG] LSP server manager initialized successfully
+2026-02-26T22:29:13.053Z [DEBUG] LSP notification handlers registered successfully for all 0 server(s)
+2026-02-26T22:29:13.054Z [DEBUG] [Reconnection] computeInitialTeamContext: No teammate context set (not a teammate)
+2026-02-26T22:29:13.055Z [DEBUG] Writing to temp file: /Users/sagnikc/.claude.json.tmp.1822.1772144953055
+2026-02-26T22:29:13.055Z [DEBUG] Preserving file permissions: 100600
+2026-02-26T22:29:13.055Z [DEBUG] Temp file written successfully, size: 1561 bytes
+2026-02-26T22:29:13.055Z [DEBUG] Applied original permissions to temp file
+2026-02-26T22:29:13.055Z [DEBUG] Renaming /Users/sagnikc/.claude.json.tmp.1822.1772144953055 to /Users/sagnikc/.claude.json
+2026-02-26T22:29:13.055Z [DEBUG] File /Users/sagnikc/.claude.json written atomically
+2026-02-26T22:29:13.067Z [DEBUG] [keybindings] KeybindingSetup initialized with 102 bindings, 0 warnings
+2026-02-26T22:29:13.077Z [DEBUG] High write ratio: blit=0, write=1025 (100.0% writes), screen=20x154
+2026-02-26T22:29:13.079Z [DEBUG] Writing to temp file: /Users/sagnikc/.claude.json.tmp.1822.1772144953079
+2026-02-26T22:29:13.079Z [DEBUG] Preserving file permissions: 100600
+2026-02-26T22:29:13.079Z [DEBUG] Temp file written successfully, size: 1597 bytes
+2026-02-26T22:29:13.079Z [DEBUG] Applied original permissions to temp file
+2026-02-26T22:29:13.079Z [DEBUG] Renaming /Users/sagnikc/.claude.json.tmp.1822.1772144953079 to /Users/sagnikc/.claude.json
+2026-02-26T22:29:13.079Z [DEBUG] File /Users/sagnikc/.claude.json written atomically
+2026-02-26T22:29:13.080Z [DEBUG] Writing to temp file: /Users/sagnikc/.claude.json.tmp.1822.1772144953080
+2026-02-26T22:29:13.080Z [DEBUG] Preserving file permissions: 100600
+2026-02-26T22:29:13.080Z [DEBUG] Temp file written successfully, size: 1597 bytes
+2026-02-26T22:29:13.080Z [DEBUG] Applied original permissions to temp file
+2026-02-26T22:29:13.080Z [DEBUG] Renaming /Users/sagnikc/.claude.json.tmp.1822.1772144953080 to /Users/sagnikc/.claude.json
+2026-02-26T22:29:13.080Z [DEBUG] File /Users/sagnikc/.claude.json written atomically
+2026-02-26T22:29:13.080Z [DEBUG] Writing to temp file: /Users/sagnikc/.claude.json.tmp.1822.1772144953080
+2026-02-26T22:29:13.080Z [DEBUG] Preserving file permissions: 100600
+2026-02-26T22:29:13.080Z [DEBUG] Temp file written successfully, size: 1679 bytes
+2026-02-26T22:29:13.081Z [DEBUG] Applied original permissions to temp file
+2026-02-26T22:29:13.081Z [DEBUG] Renaming /Users/sagnikc/.claude.json.tmp.1822.1772144953080 to /Users/sagnikc/.claude.json
+2026-02-26T22:29:13.081Z [DEBUG] File /Users/sagnikc/.claude.json written atomically
+2026-02-26T22:29:13.082Z [DEBUG] [keybindings] Skipping file watcher - user customization disabled
+2026-02-26T22:29:13.082Z [DEBUG] [REPL:mount] REPL mounted, disabled=false
+2026-02-26T22:29:13.082Z [DEBUG] performStartupChecks called
+2026-02-26T22:29:13.082Z [DEBUG] Starting background plugin installations
+2026-02-26T22:29:13.082Z [DEBUG] performBackgroundPluginInstallations called
+2026-02-26T22:29:13.083Z [DEBUG] No CLAUDE.md/rules files found
+2026-02-26T22:29:13.084Z [DEBUG] [claudeai-mcp] Checking gate (cached)...
+2026-02-26T22:29:13.084Z [DEBUG] [claudeai-mcp] Gate returned: false
+2026-02-26T22:29:13.084Z [DEBUG] [claudeai-mcp] Disabled via gate
+2026-02-26T22:29:13.084Z [DEBUG] AutoUpdaterWrapper: Installation type: native
+2026-02-26T22:29:13.085Z [DEBUG] Attempting to auto-install official marketplace
+2026-02-26T22:29:13.085Z [DEBUG] Setting installation status: 0 marketplaces, 0 installable plugins, 0 uninstallable plugins
+2026-02-26T22:29:13.088Z [DEBUG] Fetching plugin security messages from https://raw.githubusercontent.com/anthropics/claude-plugins-official/refs/heads/security/security.json
+2026-02-26T22:29:13.094Z [DEBUG] High write ratio: blit=0, write=1025 (100.0% writes), screen=20x154
+2026-02-26T22:29:13.098Z [DEBUG] Writing to temp file: /Users/sagnikc/.claude.json.tmp.1822.1772144953098
+2026-02-26T22:29:13.098Z [DEBUG] Preserving file permissions: 100600
+2026-02-26T22:29:13.098Z [DEBUG] Temp file written successfully, size: 1679 bytes
+2026-02-26T22:29:13.098Z [DEBUG] Applied original permissions to temp file
+2026-02-26T22:29:13.098Z [DEBUG] Renaming /Users/sagnikc/.claude.json.tmp.1822.1772144953098 to /Users/sagnikc/.claude.json
+2026-02-26T22:29:13.098Z [DEBUG] File /Users/sagnikc/.claude.json written atomically
+2026-02-26T22:29:13.135Z [DEBUG] Writing to temp file: /Users/sagnikc/.claude.json.tmp.1822.1772144953135
+2026-02-26T22:29:13.135Z [DEBUG] Preserving file permissions: 100600
+2026-02-26T22:29:13.135Z [DEBUG] Temp file written successfully, size: 1754 bytes
+2026-02-26T22:29:13.135Z [DEBUG] Applied original permissions to temp file
+2026-02-26T22:29:13.135Z [DEBUG] Renaming /Users/sagnikc/.claude.json.tmp.1822.1772144953135 to /Users/sagnikc/.claude.json
+2026-02-26T22:29:13.135Z [DEBUG] File /Users/sagnikc/.claude.json written atomically
+2026-02-26T22:29:13.136Z [DEBUG] Writing to temp file: /Users/sagnikc/.claude.json.tmp.1822.1772144953136
+2026-02-26T22:29:13.136Z [DEBUG] Preserving file permissions: 100600
+2026-02-26T22:29:13.136Z [DEBUG] Temp file written successfully, size: 1793 bytes
+2026-02-26T22:29:13.136Z [DEBUG] Applied original permissions to temp file
+2026-02-26T22:29:13.136Z [DEBUG] Renaming /Users/sagnikc/.claude.json.tmp.1822.1772144953136 to /Users/sagnikc/.claude.json
+2026-02-26T22:29:13.136Z [DEBUG] File /Users/sagnikc/.claude.json written atomically
+2026-02-26T22:29:13.136Z [DEBUG] Writing to temp file: /Users/sagnikc/.claude.json.tmp.1822.1772144953136
+2026-02-26T22:29:13.136Z [DEBUG] Preserving file permissions: 100600
+2026-02-26T22:29:13.136Z [DEBUG] Temp file written successfully, size: 1831 bytes
+2026-02-26T22:29:13.136Z [DEBUG] Applied original permissions to temp file
+2026-02-26T22:29:13.136Z [DEBUG] Renaming /Users/sagnikc/.claude.json.tmp.1822.1772144953136 to /Users/sagnikc/.claude.json
+2026-02-26T22:29:13.136Z [DEBUG] File /Users/sagnikc/.claude.json written atomically
+2026-02-26T22:29:13.137Z [DEBUG] Writing to temp file: /Users/sagnikc/.claude.json.tmp.1822.1772144953137
+2026-02-26T22:29:13.137Z [DEBUG] Preserving file permissions: 100600
+2026-02-26T22:29:13.137Z [DEBUG] Temp file written successfully, size: 1867 bytes
+2026-02-26T22:29:13.137Z [DEBUG] Applied original permissions to temp file
+2026-02-26T22:29:13.137Z [DEBUG] Renaming /Users/sagnikc/.claude.json.tmp.1822.1772144953137 to /Users/sagnikc/.claude.json
+2026-02-26T22:29:13.137Z [DEBUG] File /Users/sagnikc/.claude.json written atomically
+2026-02-26T22:29:13.137Z [DEBUG] Writing to temp file: /Users/sagnikc/.claude.json.tmp.1822.1772144953137
+2026-02-26T22:29:13.137Z [DEBUG] Preserving file permissions: 100600
+2026-02-26T22:29:13.137Z [DEBUG] Temp file written successfully, size: 1902 bytes
+2026-02-26T22:29:13.137Z [DEBUG] Applied original permissions to temp file
+2026-02-26T22:29:13.137Z [DEBUG] Renaming /Users/sagnikc/.claude.json.tmp.1822.1772144953137 to /Users/sagnikc/.claude.json
+2026-02-26T22:29:13.137Z [DEBUG] File /Users/sagnikc/.claude.json written atomically
+2026-02-26T22:29:13.137Z [DEBUG] Writing to temp file: /Users/sagnikc/.claude.json.tmp.1822.1772144953137
+2026-02-26T22:29:13.137Z [DEBUG] Preserving file permissions: 100600
+2026-02-26T22:29:13.137Z [DEBUG] Temp file written successfully, size: 1934 bytes
+2026-02-26T22:29:13.137Z [DEBUG] Applied original permissions to temp file
+2026-02-26T22:29:13.137Z [DEBUG] Renaming /Users/sagnikc/.claude.json.tmp.1822.1772144953137 to /Users/sagnikc/.claude.json
+2026-02-26T22:29:13.138Z [DEBUG] File /Users/sagnikc/.claude.json written atomically
+2026-02-26T22:29:13.138Z [DEBUG] Writing to temp file: /Users/sagnikc/.claude.json.tmp.1822.1772144953138
+2026-02-26T22:29:13.138Z [DEBUG] Preserving file permissions: 100600
+2026-02-26T22:29:13.138Z [DEBUG] Temp file written successfully, size: 1964 bytes
+2026-02-26T22:29:13.138Z [DEBUG] Applied original permissions to temp file
+2026-02-26T22:29:13.138Z [DEBUG] Renaming /Users/sagnikc/.claude.json.tmp.1822.1772144953138 to /Users/sagnikc/.claude.json
+2026-02-26T22:29:13.138Z [DEBUG] File /Users/sagnikc/.claude.json written atomically
+2026-02-26T22:29:13.138Z [DEBUG] Writing to temp file: /Users/sagnikc/.claude.json.tmp.1822.1772144953138
+2026-02-26T22:29:13.138Z [DEBUG] Preserving file permissions: 100600
+2026-02-26T22:29:13.138Z [DEBUG] Temp file written successfully, size: 1997 bytes
+2026-02-26T22:29:13.138Z [DEBUG] Applied original permissions to temp file
+2026-02-26T22:29:13.138Z [DEBUG] Renaming /Users/sagnikc/.claude.json.tmp.1822.1772144953138 to /Users/sagnikc/.claude.json
+2026-02-26T22:29:13.138Z [DEBUG] File /Users/sagnikc/.claude.json written atomically
+2026-02-26T22:29:13.139Z [DEBUG] Writing to temp file: /Users/sagnikc/.claude.json.tmp.1822.1772144953139
+2026-02-26T22:29:13.139Z [DEBUG] Preserving file permissions: 100600
+2026-02-26T22:29:13.139Z [DEBUG] Temp file written successfully, size: 2033 bytes
+2026-02-26T22:29:13.139Z [DEBUG] Applied original permissions to temp file
+2026-02-26T22:29:13.139Z [DEBUG] Renaming /Users/sagnikc/.claude.json.tmp.1822.1772144953139 to /Users/sagnikc/.claude.json
+2026-02-26T22:29:13.139Z [DEBUG] File /Users/sagnikc/.claude.json written atomically
+2026-02-26T22:29:13.139Z [DEBUG] Writing to temp file: /Users/sagnikc/.claude.json.tmp.1822.1772144953139
+2026-02-26T22:29:13.139Z [DEBUG] Preserving file permissions: 100600
+2026-02-26T22:29:13.139Z [DEBUG] Temp file written successfully, size: 2070 bytes
+2026-02-26T22:29:13.139Z [DEBUG] Applied original permissions to temp file
+2026-02-26T22:29:13.139Z [DEBUG] Renaming /Users/sagnikc/.claude.json.tmp.1822.1772144953139 to /Users/sagnikc/.claude.json
+2026-02-26T22:29:13.139Z [DEBUG] File /Users/sagnikc/.claude.json written atomically
+2026-02-26T22:29:13.139Z [DEBUG] Writing to temp file: /Users/sagnikc/.claude.json.tmp.1822.1772144953139
+2026-02-26T22:29:13.139Z [DEBUG] Preserving file permissions: 100600
+2026-02-26T22:29:13.139Z [DEBUG] Temp file written successfully, size: 2102 bytes
+2026-02-26T22:29:13.139Z [DEBUG] Applied original permissions to temp file
+2026-02-26T22:29:13.139Z [DEBUG] Renaming /Users/sagnikc/.claude.json.tmp.1822.1772144953139 to /Users/sagnikc/.claude.json
+2026-02-26T22:29:13.139Z [DEBUG] File /Users/sagnikc/.claude.json written atomically
+2026-02-26T22:29:13.140Z [DEBUG] Writing to temp file: /Users/sagnikc/.claude.json.tmp.1822.1772144953140
+2026-02-26T22:29:13.140Z [DEBUG] Preserving file permissions: 100600
+2026-02-26T22:29:13.140Z [DEBUG] Temp file written successfully, size: 2137 bytes
+2026-02-26T22:29:13.140Z [DEBUG] Applied original permissions to temp file
+2026-02-26T22:29:13.140Z [DEBUG] Renaming /Users/sagnikc/.claude.json.tmp.1822.1772144953140 to /Users/sagnikc/.claude.json
+2026-02-26T22:29:13.140Z [DEBUG] File /Users/sagnikc/.claude.json written atomically
+2026-02-26T22:29:13.140Z [DEBUG] Writing to temp file: /Users/sagnikc/.claude.json.tmp.1822.1772144953140
+2026-02-26T22:29:13.140Z [DEBUG] Preserving file permissions: 100600
+2026-02-26T22:29:13.140Z [DEBUG] Temp file written successfully, size: 2172 bytes
+2026-02-26T22:29:13.140Z [DEBUG] Applied original permissions to temp file
+2026-02-26T22:29:13.140Z [DEBUG] Renaming /Users/sagnikc/.claude.json.tmp.1822.1772144953140 to /Users/sagnikc/.claude.json
+2026-02-26T22:29:13.140Z [DEBUG] File /Users/sagnikc/.claude.json written atomically
+2026-02-26T22:29:13.140Z [DEBUG] Writing to temp file: /Users/sagnikc/.claude.json.tmp.1822.1772144953140
+2026-02-26T22:29:13.140Z [DEBUG] Preserving file permissions: 100600
+2026-02-26T22:29:13.140Z [DEBUG] Temp file written successfully, size: 2245 bytes
+2026-02-26T22:29:13.140Z [DEBUG] Applied original permissions to temp file
+2026-02-26T22:29:13.140Z [DEBUG] Renaming /Users/sagnikc/.claude.json.tmp.1822.1772144953140 to /Users/sagnikc/.claude.json
+2026-02-26T22:29:13.140Z [DEBUG] File /Users/sagnikc/.claude.json written atomically
+2026-02-26T22:29:13.141Z [DEBUG] Writing to temp file: /Users/sagnikc/.claude.json.tmp.1822.1772144953141
+2026-02-26T22:29:13.141Z [DEBUG] Preserving file permissions: 100600
+2026-02-26T22:29:13.141Z [DEBUG] Temp file written successfully, size: 2278 bytes
+2026-02-26T22:29:13.141Z [DEBUG] Applied original permissions to temp file
+2026-02-26T22:29:13.141Z [DEBUG] Renaming /Users/sagnikc/.claude.json.tmp.1822.1772144953141 to /Users/sagnikc/.claude.json
+2026-02-26T22:29:13.141Z [DEBUG] File /Users/sagnikc/.claude.json written atomically
+2026-02-26T22:29:13.141Z [DEBUG] Writing to temp file: /Users/sagnikc/.claude.json.tmp.1822.1772144953141
+2026-02-26T22:29:13.141Z [DEBUG] Preserving file permissions: 100600
+2026-02-26T22:29:13.141Z [DEBUG] Temp file written successfully, size: 2309 bytes
+2026-02-26T22:29:13.141Z [DEBUG] Applied original permissions to temp file
+2026-02-26T22:29:13.141Z [DEBUG] Renaming /Users/sagnikc/.claude.json.tmp.1822.1772144953141 to /Users/sagnikc/.claude.json
+2026-02-26T22:29:13.141Z [DEBUG] File /Users/sagnikc/.claude.json written atomically
+2026-02-26T22:29:13.141Z [DEBUG] Writing to temp file: /Users/sagnikc/.claude.json.tmp.1822.1772144953141
+2026-02-26T22:29:13.141Z [DEBUG] Preserving file permissions: 100600
+2026-02-26T22:29:13.141Z [DEBUG] Temp file written successfully, size: 2345 bytes
+2026-02-26T22:29:13.141Z [DEBUG] Applied original permissions to temp file
+2026-02-26T22:29:13.141Z [DEBUG] Renaming /Users/sagnikc/.claude.json.tmp.1822.1772144953141 to /Users/sagnikc/.claude.json
+2026-02-26T22:29:13.142Z [DEBUG] File /Users/sagnikc/.claude.json written atomically
+2026-02-26T22:29:13.142Z [DEBUG] Writing to temp file: /Users/sagnikc/.claude.json.tmp.1822.1772144953142
+2026-02-26T22:29:13.142Z [DEBUG] Preserving file permissions: 100600
+2026-02-26T22:29:13.142Z [DEBUG] Temp file written successfully, size: 2397 bytes
+2026-02-26T22:29:13.142Z [DEBUG] Applied original permissions to temp file
+2026-02-26T22:29:13.142Z [DEBUG] Renaming /Users/sagnikc/.claude.json.tmp.1822.1772144953142 to /Users/sagnikc/.claude.json
+2026-02-26T22:29:13.142Z [DEBUG] File /Users/sagnikc/.claude.json written atomically
+2026-02-26T22:29:13.142Z [DEBUG] Writing to temp file: /Users/sagnikc/.claude.json.tmp.1822.1772144953142
+2026-02-26T22:29:13.142Z [DEBUG] Preserving file permissions: 100600
+2026-02-26T22:29:13.142Z [DEBUG] Temp file written successfully, size: 2437 bytes
+2026-02-26T22:29:13.142Z [DEBUG] Applied original permissions to temp file
+2026-02-26T22:29:13.142Z [DEBUG] Renaming /Users/sagnikc/.claude.json.tmp.1822.1772144953142 to /Users/sagnikc/.claude.json
+2026-02-26T22:29:13.142Z [DEBUG] File /Users/sagnikc/.claude.json written atomically
+2026-02-26T22:29:13.143Z [DEBUG] Writing to temp file: /Users/sagnikc/.claude.json.tmp.1822.1772144953143
+2026-02-26T22:29:13.143Z [DEBUG] Preserving file permissions: 100600
+2026-02-26T22:29:13.143Z [DEBUG] Temp file written successfully, size: 2472 bytes
+2026-02-26T22:29:13.143Z [DEBUG] Applied original permissions to temp file
+2026-02-26T22:29:13.143Z [DEBUG] Renaming /Users/sagnikc/.claude.json.tmp.1822.1772144953143 to /Users/sagnikc/.claude.json
+2026-02-26T22:29:13.143Z [DEBUG] File /Users/sagnikc/.claude.json written atomically
+2026-02-26T22:29:13.143Z [DEBUG] Writing to temp file: /Users/sagnikc/.claude.json.tmp.1822.1772144953143
+2026-02-26T22:29:13.143Z [DEBUG] Preserving file permissions: 100600
+2026-02-26T22:29:13.143Z [DEBUG] Temp file written successfully, size: 2515 bytes
+2026-02-26T22:29:13.143Z [DEBUG] Applied original permissions to temp file
+2026-02-26T22:29:13.143Z [DEBUG] Renaming /Users/sagnikc/.claude.json.tmp.1822.1772144953143 to /Users/sagnikc/.claude.json
+2026-02-26T22:29:13.143Z [DEBUG] File /Users/sagnikc/.claude.json written atomically
+2026-02-26T22:29:13.143Z [DEBUG] Writing to temp file: /Users/sagnikc/.claude.json.tmp.1822.1772144953143
+2026-02-26T22:29:13.143Z [DEBUG] Preserving file permissions: 100600
+2026-02-26T22:29:13.143Z [DEBUG] Temp file written successfully, size: 2553 bytes
+2026-02-26T22:29:13.143Z [DEBUG] Applied original permissions to temp file
+2026-02-26T22:29:13.143Z [DEBUG] Renaming /Users/sagnikc/.claude.json.tmp.1822.1772144953143 to /Users/sagnikc/.claude.json
+2026-02-26T22:29:13.143Z [DEBUG] File /Users/sagnikc/.claude.json written atomically
+2026-02-26T22:29:13.154Z [DEBUG] Security messages saved successfully
+2026-02-26T22:29:13.154Z [DEBUG] Loaded plugins - Enabled: 0, Disabled: 0, Commands: 0, Agents: 0, Errors: 0
+2026-02-26T22:29:13.190Z [DEBUG] Writing to temp file: /Users/sagnikc/.claude.json.tmp.1822.1772144953190
+2026-02-26T22:29:13.190Z [DEBUG] Preserving file permissions: 100600
+2026-02-26T22:29:13.190Z [DEBUG] Temp file written successfully, size: 2696 bytes
+2026-02-26T22:29:13.190Z [DEBUG] Applied original permissions to temp file
+2026-02-26T22:29:13.190Z [DEBUG] Renaming /Users/sagnikc/.claude.json.tmp.1822.1772144953190 to /Users/sagnikc/.claude.json
+2026-02-26T22:29:13.190Z [DEBUG] File /Users/sagnikc/.claude.json written atomically
+2026-02-26T22:29:13.299Z [DEBUG] Checking for native installer update to version 2.1.59
+2026-02-26T22:29:13.301Z [DEBUG] Found 2.1.59 at /Users/sagnikc/.local/bin/claude, skipping install
+2026-02-26T22:29:13.305Z [DEBUG] Writing to temp file: /Users/sagnikc/.claude.json.tmp.1822.1772144953305
+2026-02-26T22:29:13.305Z [DEBUG] Preserving file permissions: 100600
+2026-02-26T22:29:13.305Z [DEBUG] Temp file written successfully, size: 2741 bytes
+2026-02-26T22:29:13.305Z [DEBUG] Applied original permissions to temp file
+2026-02-26T22:29:13.305Z [DEBUG] Renaming /Users/sagnikc/.claude.json.tmp.1822.1772144953305 to /Users/sagnikc/.claude.json
+2026-02-26T22:29:13.305Z [DEBUG] File /Users/sagnikc/.claude.json written atomically
+2026-02-26T22:29:13.406Z [DEBUG] Writing to temp file: /Users/sagnikc/.claude/settings.json.tmp.1822.1772144953406
+2026-02-26T22:29:13.406Z [DEBUG] Temp file written successfully, size: 3 bytes
+2026-02-26T22:29:13.406Z [DEBUG] Renaming /Users/sagnikc/.claude/settings.json.tmp.1822.1772144953406 to /Users/sagnikc/.claude/settings.json
+2026-02-26T22:29:13.406Z [DEBUG] File /Users/sagnikc/.claude/settings.json written atomically
+2026-02-26T22:29:13.407Z [DEBUG] Writing to temp file: /Users/sagnikc/.claude.json.tmp.1822.1772144953407
+2026-02-26T22:29:13.407Z [DEBUG] Preserving file permissions: 100600
+2026-02-26T22:29:13.408Z [DEBUG] Temp file written successfully, size: 2775 bytes
+2026-02-26T22:29:13.408Z [DEBUG] Applied original permissions to temp file
+2026-02-26T22:29:13.408Z [DEBUG] Renaming /Users/sagnikc/.claude.json.tmp.1822.1772144953407 to /Users/sagnikc/.claude.json
+2026-02-26T22:29:13.408Z [DEBUG] File /Users/sagnikc/.claude.json written atomically
+2026-02-26T22:29:13.408Z [DEBUG] Org fast mode: disabled (extra_usage_disabled)
+2026-02-26T22:29:13.467Z [DEBUG] SSH config check: code=1 configured=true
+2026-02-26T22:29:13.467Z [DEBUG] git pull: cwd=/Users/sagnikc/.claude/plugins/marketplaces/anthropics-claude-plugins-official ref=default
+2026-02-26T22:29:13.470Z [WARN] git pull failed, will re-clone:
+2026-02-26T22:29:13.470Z [DEBUG] git clone: url=git@github.com:anthropics/claude-plugins-official.git ref=default timeout=120000ms
+2026-02-26T22:29:13.518Z [DEBUG] Writing to temp file: /Users/sagnikc/.claude.json.tmp.1822.1772144953518
+2026-02-26T22:29:13.518Z [DEBUG] Preserving file permissions: 100600
+2026-02-26T22:29:13.518Z [DEBUG] Temp file written successfully, size: 2833 bytes
+2026-02-26T22:29:13.518Z [DEBUG] Applied original permissions to temp file
+2026-02-26T22:29:13.518Z [DEBUG] Renaming /Users/sagnikc/.claude.json.tmp.1822.1772144953518 to /Users/sagnikc/.claude.json
+2026-02-26T22:29:13.518Z [DEBUG] File /Users/sagnikc/.claude.json written atomically
+2026-02-26T22:29:13.525Z [DEBUG] Fast mode unavailable: Fast mode requires extra usage billing · /extra-usage to enable
+2026-02-26T22:29:13.571Z [DEBUG] Ripgrep first use test: PASSED (mode=builtin, path=/Users/sagnikc/.local/share/claude/versions/2.1.59)
+2026-02-26T22:29:14.338Z [DEBUG] git clone succeeded: git@github.com:anthropics/claude-plugins-official.git
+2026-02-26T22:29:14.338Z [DEBUG] Reading marketplace from /Users/sagnikc/.claude/plugins/marketplaces/anthropics-claude-plugins-official/.claude-plugin/marketplace.json
+2026-02-26T22:29:14.343Z [DEBUG] Added marketplace source: claude-plugins-official
+2026-02-26T22:29:14.343Z [DEBUG] Successfully auto-installed official marketplace
+2026-02-26T22:29:14.343Z [DEBUG] Writing to temp file: /Users/sagnikc/.claude.json.tmp.1822.1772144954343
+2026-02-26T22:29:14.343Z [DEBUG] Preserving file permissions: 100600
+2026-02-26T22:29:14.343Z [DEBUG] Temp file written successfully, size: 2928 bytes
+2026-02-26T22:29:14.343Z [DEBUG] Applied original permissions to temp file
+2026-02-26T22:29:14.343Z [DEBUG] Renaming /Users/sagnikc/.claude.json.tmp.1822.1772144954343 to /Users/sagnikc/.claude.json
+2026-02-26T22:29:14.343Z [DEBUG] File /Users/sagnikc/.claude.json written atomically
+2026-02-26T22:29:14.344Z [DEBUG] Showing marketplace installation success notification
+2026-02-26T22:29:15.539Z [DEBUG] Fast mode unavailable: Fast mode requires extra usage billing · /extra-usage to enable
+2026-02-26T22:29:15.638Z [DEBUG] Fast mode unavailable: Fast mode requires extra usage billing · /extra-usage to enable
+2026-02-26T22:29:15.786Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2026-02-26T22:29:15.786Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2026-02-26T22:29:15.786Z [DEBUG] Hooks: Found 0 total hooks in registry
+2026-02-26T22:29:15.786Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2026-02-26T22:29:15.788Z [WARN] [3P telemetry] Event dropped (no event logger initialized): user_prompt
+2026-02-26T22:29:15.789Z [DEBUG] Writing to temp file: /Users/sagnikc/.claude.json.tmp.1822.1772144955789
+2026-02-26T22:29:15.789Z [DEBUG] Preserving file permissions: 100600
+2026-02-26T22:29:15.790Z [DEBUG] Temp file written successfully, size: 2966 bytes
+2026-02-26T22:29:15.790Z [DEBUG] Applied original permissions to temp file
+2026-02-26T22:29:15.790Z [DEBUG] Renaming /Users/sagnikc/.claude.json.tmp.1822.1772144955789 to /Users/sagnikc/.claude.json
+2026-02-26T22:29:15.791Z [DEBUG] File /Users/sagnikc/.claude.json written atomically
+2026-02-26T22:29:15.791Z [DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+2026-02-26T22:29:15.791Z [DEBUG] Found 0 hook matchers in settings
+2026-02-26T22:29:15.791Z [DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+2026-02-26T22:29:15.791Z [DEBUG] FileHistory: Added snapshot for fe1974da-cb7a-4edf-8d4f-97b6554bfced, tracking 0 files
+2026-02-26T22:29:15.793Z [DEBUG] [useDeferredValue] Messages deferred by 1 (0→1)
+2026-02-26T22:29:15.798Z [DEBUG] Fast mode unavailable: Fast mode requires extra usage billing · /extra-usage to enable
+2026-02-26T22:29:15.798Z [DEBUG] Fast mode unavailable: Fast mode requires extra usage billing · /extra-usage to enable
+2026-02-26T22:29:15.802Z [DEBUG] High write ratio: blit=0, write=1066 (100.0% writes), screen=22x154
+2026-02-26T22:29:15.805Z [DEBUG] Started caffeinate to prevent sleep
+2026-02-26T22:29:15.806Z [DEBUG] Tool search disabled for model 'claude-haiku-4-5-20251001': model does not support tool_reference blocks. This feature is only available on Claude Sonnet 4+, Opus 4+, and newer models.
+2026-02-26T22:29:15.808Z [DEBUG] Writing to temp file: /Users/sagnikc/.claude.json.tmp.1822.1772144955808
+2026-02-26T22:29:15.808Z [DEBUG] Preserving file permissions: 100600
+2026-02-26T22:29:15.808Z [DEBUG] Temp file written successfully, size: 2996 bytes
+2026-02-26T22:29:15.808Z [DEBUG] Applied original permissions to temp file
+2026-02-26T22:29:15.808Z [DEBUG] Renaming /Users/sagnikc/.claude.json.tmp.1822.1772144955808 to /Users/sagnikc/.claude.json
+2026-02-26T22:29:15.808Z [DEBUG] File /Users/sagnikc/.claude.json written atomically
+2026-02-26T22:29:15.808Z [DEBUG] Writing to temp file: /Users/sagnikc/.claude.json.tmp.1822.1772144955808
+2026-02-26T22:29:15.808Z [DEBUG] Preserving file permissions: 100600
+2026-02-26T22:29:15.808Z [DEBUG] Temp file written successfully, size: 3063 bytes
+2026-02-26T22:29:15.809Z [DEBUG] Applied original permissions to temp file
+2026-02-26T22:29:15.809Z [DEBUG] Renaming /Users/sagnikc/.claude.json.tmp.1822.1772144955808 to /Users/sagnikc/.claude.json
+2026-02-26T22:29:15.809Z [DEBUG] File /Users/sagnikc/.claude.json written atomically
+2026-02-26T22:29:15.809Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.59.059; cc_entrypoint=cli; cch=00000;
+2026-02-26T22:29:15.809Z [DEBUG] Fast mode unavailable: Fast mode requires extra usage billing · /extra-usage to enable
+2026-02-26T22:29:15.809Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-02-26T22:29:15.809Z [DEBUG] [API:auth] OAuth token check starting
+2026-02-26T22:29:15.810Z [DEBUG] Writing to temp file: /Users/sagnikc/.claude.json.tmp.1822.1772144955810
+2026-02-26T22:29:15.810Z [DEBUG] Preserving file permissions: 100600
+2026-02-26T22:29:15.810Z [DEBUG] Temp file written successfully, size: 3109 bytes
+2026-02-26T22:29:15.810Z [DEBUG] Applied original permissions to temp file
+2026-02-26T22:29:15.810Z [DEBUG] Renaming /Users/sagnikc/.claude.json.tmp.1822.1772144955810 to /Users/sagnikc/.claude.json
+2026-02-26T22:29:15.810Z [DEBUG] File /Users/sagnikc/.claude.json written atomically
+2026-02-26T22:29:15.810Z [DEBUG] Fast mode unavailable: Fast mode requires extra usage billing · /extra-usage to enable
+2026-02-26T22:29:15.810Z [DEBUG] Writing to temp file: /Users/sagnikc/.claude.json.tmp.1822.1772144955810
+2026-02-26T22:29:15.810Z [DEBUG] Preserving file permissions: 100600
+2026-02-26T22:29:15.811Z [DEBUG] Temp file written successfully, size: 3147 bytes
+2026-02-26T22:29:15.811Z [DEBUG] Applied original permissions to temp file
+2026-02-26T22:29:15.811Z [DEBUG] Renaming /Users/sagnikc/.claude.json.tmp.1822.1772144955810 to /Users/sagnikc/.claude.json
+2026-02-26T22:29:15.811Z [DEBUG] File /Users/sagnikc/.claude.json written atomically
+2026-02-26T22:29:15.811Z [DEBUG] [API:auth] OAuth token check complete
+2026-02-26T22:29:15.811Z [DEBUG] Fast mode unavailable: Fast mode requires extra usage billing · /extra-usage to enable
+2026-02-26T22:29:15.811Z [DEBUG] Total plugin output styles loaded: 0
+2026-02-26T22:29:15.812Z [DEBUG] Writing to temp file: /Users/sagnikc/.claude.json.tmp.1822.1772144955812
+2026-02-26T22:29:15.812Z [DEBUG] Preserving file permissions: 100600
+2026-02-26T22:29:15.812Z [DEBUG] Temp file written successfully, size: 3180 bytes
+2026-02-26T22:29:15.812Z [DEBUG] Applied original permissions to temp file
+2026-02-26T22:29:15.812Z [DEBUG] Renaming /Users/sagnikc/.claude.json.tmp.1822.1772144955812 to /Users/sagnikc/.claude.json
+2026-02-26T22:29:15.812Z [DEBUG] File /Users/sagnikc/.claude.json written atomically
+2026-02-26T22:29:15.813Z [DEBUG] Writing to temp file: /Users/sagnikc/.claude.json.tmp.1822.1772144955813
+2026-02-26T22:29:15.813Z [DEBUG] Preserving file permissions: 100600
+2026-02-26T22:29:15.813Z [DEBUG] Temp file written successfully, size: 3211 bytes
+2026-02-26T22:29:15.813Z [DEBUG] Applied original permissions to temp file
+2026-02-26T22:29:15.813Z [DEBUG] Renaming /Users/sagnikc/.claude.json.tmp.1822.1772144955813 to /Users/sagnikc/.claude.json
+2026-02-26T22:29:15.813Z [DEBUG] File /Users/sagnikc/.claude.json written atomically
+2026-02-26T22:29:15.813Z [DEBUG] Writing to temp file: /Users/sagnikc/.claude.json.tmp.1822.1772144955813
+2026-02-26T22:29:15.813Z [DEBUG] Preserving file permissions: 100600
+2026-02-26T22:29:15.813Z [DEBUG] Temp file written successfully, size: 3239 bytes
+2026-02-26T22:29:15.813Z [DEBUG] Applied original permissions to temp file
+2026-02-26T22:29:15.813Z [DEBUG] Renaming /Users/sagnikc/.claude.json.tmp.1822.1772144955813 to /Users/sagnikc/.claude.json
+2026-02-26T22:29:15.813Z [DEBUG] File /Users/sagnikc/.claude.json written atomically
+2026-02-26T22:29:15.814Z [DEBUG] Writing to temp file: /Users/sagnikc/.claude.json.tmp.1822.1772144955814
+2026-02-26T22:29:15.814Z [DEBUG] Preserving file permissions: 100600
+2026-02-26T22:29:15.814Z [DEBUG] Temp file written successfully, size: 3239 bytes
+2026-02-26T22:29:15.814Z [DEBUG] Applied original permissions to temp file
+2026-02-26T22:29:15.814Z [DEBUG] Renaming /Users/sagnikc/.claude.json.tmp.1822.1772144955814 to /Users/sagnikc/.claude.json
+2026-02-26T22:29:15.814Z [DEBUG] File /Users/sagnikc/.claude.json written atomically
+2026-02-26T22:29:15.814Z [DEBUG] Writing to temp file: /Users/sagnikc/.claude.json.tmp.1822.1772144955814
+2026-02-26T22:29:15.814Z [DEBUG] Preserving file permissions: 100600
+2026-02-26T22:29:15.814Z [DEBUG] Temp file written successfully, size: 3276 bytes
+2026-02-26T22:29:15.814Z [DEBUG] Applied original permissions to temp file
+2026-02-26T22:29:15.814Z [DEBUG] Renaming /Users/sagnikc/.claude.json.tmp.1822.1772144955814 to /Users/sagnikc/.claude.json
+2026-02-26T22:29:15.815Z [DEBUG] File /Users/sagnikc/.claude.json written atomically
+2026-02-26T22:29:15.815Z [DEBUG] Writing to temp file: /Users/sagnikc/.claude.json.tmp.1822.1772144955815
+2026-02-26T22:29:15.815Z [DEBUG] Preserving file permissions: 100600
+2026-02-26T22:29:15.815Z [DEBUG] Temp file written successfully, size: 3314 bytes
+2026-02-26T22:29:15.815Z [DEBUG] Applied original permissions to temp file
+2026-02-26T22:29:15.815Z [DEBUG] Renaming /Users/sagnikc/.claude.json.tmp.1822.1772144955815 to /Users/sagnikc/.claude.json
+2026-02-26T22:29:15.815Z [DEBUG] File /Users/sagnikc/.claude.json written atomically
+2026-02-26T22:29:15.816Z [DEBUG] Writing to temp file: /Users/sagnikc/.claude.json.tmp.1822.1772144955816
+2026-02-26T22:29:15.816Z [DEBUG] Preserving file permissions: 100600
+2026-02-26T22:29:15.816Z [DEBUG] Temp file written successfully, size: 3345 bytes
+2026-02-26T22:29:15.816Z [DEBUG] Applied original permissions to temp file
+2026-02-26T22:29:15.816Z [DEBUG] Renaming /Users/sagnikc/.claude.json.tmp.1822.1772144955816 to /Users/sagnikc/.claude.json
+2026-02-26T22:29:15.816Z [DEBUG] File /Users/sagnikc/.claude.json written atomically
+2026-02-26T22:29:15.816Z [DEBUG] autocompact: tokens=1 threshold=167000 effectiveWindow=180000
+2026-02-26T22:29:15.816Z [DEBUG] Writing to temp file: /Users/sagnikc/.claude.json.tmp.1822.1772144955816
+2026-02-26T22:29:15.816Z [DEBUG] Preserving file permissions: 100600
+2026-02-26T22:29:15.817Z [DEBUG] Temp file written successfully, size: 3382 bytes
+2026-02-26T22:29:15.817Z [DEBUG] Applied original permissions to temp file
+2026-02-26T22:29:15.817Z [DEBUG] Renaming /Users/sagnikc/.claude.json.tmp.1822.1772144955816 to /Users/sagnikc/.claude.json
+2026-02-26T22:29:15.817Z [DEBUG] File /Users/sagnikc/.claude.json written atomically
+2026-02-26T22:29:15.818Z [DEBUG] Writing to temp file: /Users/sagnikc/.claude.json.tmp.1822.1772144955818
+2026-02-26T22:29:15.818Z [DEBUG] Preserving file permissions: 100600
+2026-02-26T22:29:15.818Z [DEBUG] Temp file written successfully, size: 3427 bytes
+2026-02-26T22:29:15.818Z [DEBUG] Applied original permissions to temp file
+2026-02-26T22:29:15.818Z [DEBUG] Renaming /Users/sagnikc/.claude.json.tmp.1822.1772144955818 to /Users/sagnikc/.claude.json
+2026-02-26T22:29:15.818Z [DEBUG] File /Users/sagnikc/.claude.json written atomically
+2026-02-26T22:29:15.819Z [DEBUG] Writing to temp file: /Users/sagnikc/.claude.json.tmp.1822.1772144955819
+2026-02-26T22:29:15.819Z [DEBUG] Preserving file permissions: 100600
+2026-02-26T22:29:15.819Z [DEBUG] Temp file written successfully, size: 3461 bytes
+2026-02-26T22:29:15.819Z [DEBUG] Applied original permissions to temp file
+2026-02-26T22:29:15.819Z [DEBUG] Renaming /Users/sagnikc/.claude.json.tmp.1822.1772144955819 to /Users/sagnikc/.claude.json
+2026-02-26T22:29:15.819Z [DEBUG] File /Users/sagnikc/.claude.json written atomically
+2026-02-26T22:29:15.819Z [DEBUG] Writing to temp file: /Users/sagnikc/.claude.json.tmp.1822.1772144955819
+2026-02-26T22:29:15.819Z [DEBUG] Preserving file permissions: 100600
+2026-02-26T22:29:15.819Z [DEBUG] Temp file written successfully, size: 3486 bytes
+2026-02-26T22:29:15.819Z [DEBUG] Applied original permissions to temp file
+2026-02-26T22:29:15.819Z [DEBUG] Renaming /Users/sagnikc/.claude.json.tmp.1822.1772144955819 to /Users/sagnikc/.claude.json
+2026-02-26T22:29:15.819Z [DEBUG] File /Users/sagnikc/.claude.json written atomically
+2026-02-26T22:29:15.820Z [DEBUG] Writing to temp file: /Users/sagnikc/.claude.json.tmp.1822.1772144955820
+2026-02-26T22:29:15.820Z [DEBUG] Preserving file permissions: 100600
+2026-02-26T22:29:15.820Z [DEBUG] Temp file written successfully, size: 3532 bytes
+2026-02-26T22:29:15.820Z [DEBUG] Applied original permissions to temp file
+2026-02-26T22:29:15.820Z [DEBUG] Renaming /Users/sagnikc/.claude.json.tmp.1822.1772144955820 to /Users/sagnikc/.claude.json
+2026-02-26T22:29:15.820Z [DEBUG] File /Users/sagnikc/.claude.json written atomically
+2026-02-26T22:29:15.820Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-02-26T22:29:15.820Z [DEBUG] [API:auth] OAuth token check starting
+2026-02-26T22:29:15.820Z [DEBUG] [API:auth] OAuth token check complete
+2026-02-26T22:29:15.824Z [DEBUG] [useDeferredValue] Messages deferred by 1 (0→1)
+2026-02-26T22:29:15.825Z [DEBUG] Fast mode unavailable: Fast mode requires extra usage billing · /extra-usage to enable
+2026-02-26T22:29:15.827Z [DEBUG] git pull: cwd=/Users/sagnikc/.claude/plugins/marketplaces/claude-plugins-official ref=default
+2026-02-26T22:29:15.830Z [DEBUG] Fast mode unavailable: Fast mode requires extra usage billing · /extra-usage to enable
+2026-02-26T22:29:15.843Z [DEBUG] High write ratio: blit=0, write=1066 (100.0% writes), screen=22x154
+2026-02-26T22:29:15.952Z [DEBUG] Auto tool search disabled: 8066 tokens (threshold: 20000, 10% of context) [source: query]
+2026-02-26T22:29:15.955Z [DEBUG] Writing to temp file: /Users/sagnikc/.claude.json.tmp.1822.1772144955955
+2026-02-26T22:29:15.955Z [DEBUG] Preserving file permissions: 100600
+2026-02-26T22:29:15.956Z [DEBUG] Temp file written successfully, size: 3532 bytes
+2026-02-26T22:29:15.956Z [DEBUG] Applied original permissions to temp file
+2026-02-26T22:29:15.956Z [DEBUG] Renaming /Users/sagnikc/.claude.json.tmp.1822.1772144955955 to /Users/sagnikc/.claude.json
+2026-02-26T22:29:15.956Z [DEBUG] File /Users/sagnikc/.claude.json written atomically
+2026-02-26T22:29:15.956Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.59.17f; cc_entrypoint=cli; cch=00000;
+2026-02-26T22:29:15.956Z [DEBUG] Fast mode unavailable: Fast mode requires extra usage billing · /extra-usage to enable
+2026-02-26T22:29:15.956Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-02-26T22:29:15.956Z [DEBUG] [API:auth] OAuth token check starting
+2026-02-26T22:29:15.957Z [DEBUG] Writing to temp file: /Users/sagnikc/.claude.json.tmp.1822.1772144955957
+2026-02-26T22:29:15.957Z [DEBUG] Preserving file permissions: 100600
+2026-02-26T22:29:15.957Z [DEBUG] Temp file written successfully, size: 3649 bytes
+2026-02-26T22:29:15.957Z [DEBUG] Applied original permissions to temp file
+2026-02-26T22:29:15.957Z [DEBUG] Renaming /Users/sagnikc/.claude.json.tmp.1822.1772144955957 to /Users/sagnikc/.claude.json
+2026-02-26T22:29:15.957Z [DEBUG] File /Users/sagnikc/.claude.json written atomically
+2026-02-26T22:29:15.957Z [DEBUG] Fast mode unavailable: Fast mode requires extra usage billing · /extra-usage to enable
+2026-02-26T22:29:15.957Z [DEBUG] [API:auth] OAuth token check complete
+2026-02-26T22:29:15.957Z [DEBUG] Fast mode unavailable: Fast mode requires extra usage billing · /extra-usage to enable
+2026-02-26T22:29:15.959Z [DEBUG] Fast mode unavailable: Fast mode requires extra usage billing · /extra-usage to enable
+2026-02-26T22:29:16.308Z [DEBUG] Stream started - received first chunk
+2026-02-26T22:29:16.370Z [DEBUG] Successfully refreshed marketplace: claude-plugins-official
+2026-02-26T22:29:16.370Z [DEBUG] Plugin autoupdate: checking installed plugins
+2026-02-26T22:29:17.128Z [DEBUG] Stream started - received first chunk
+2026-02-26T22:29:17.132Z [DEBUG] Fast mode unavailable: Fast mode requires extra usage billing · /extra-usage to enable
+2026-02-26T22:29:17.136Z [DEBUG] [onCancel] focusedInputDialog=undefined streamMode=requesting
+2026-02-26T22:29:17.143Z [DEBUG] Writing to temp file: /Users/sagnikc/.claude.json.tmp.1822.1772144957143
+2026-02-26T22:29:17.143Z [DEBUG] Preserving file permissions: 100600
+2026-02-26T22:29:17.143Z [DEBUG] Temp file written successfully, size: 3698 bytes
+2026-02-26T22:29:17.143Z [DEBUG] Applied original permissions to temp file
+2026-02-26T22:29:17.143Z [DEBUG] Renaming /Users/sagnikc/.claude.json.tmp.1822.1772144957143 to /Users/sagnikc/.claude.json
+2026-02-26T22:29:17.144Z [DEBUG] File /Users/sagnikc/.claude.json written atomically
+2026-02-26T22:29:17.145Z [ERROR] Stream completed with message_start but no content blocks completed - triggering non-streaming fallback
+2026-02-26T22:29:17.146Z [ERROR] Error streaming, falling back to non-streaming mode: Stream ended without receiving any events
+2026-02-26T22:29:17.147Z [DEBUG] Writing to temp file: /Users/sagnikc/.claude.json.tmp.1822.1772144957147
+2026-02-26T22:29:17.147Z [DEBUG] Preserving file permissions: 100600
+2026-02-26T22:29:17.147Z [DEBUG] Temp file written successfully, size: 3762 bytes
+2026-02-26T22:29:17.147Z [DEBUG] Applied original permissions to temp file
+2026-02-26T22:29:17.147Z [DEBUG] Renaming /Users/sagnikc/.claude.json.tmp.1822.1772144957147 to /Users/sagnikc/.claude.json
+2026-02-26T22:29:17.148Z [DEBUG] File /Users/sagnikc/.claude.json written atomically
+2026-02-26T22:29:17.148Z [ERROR] Error in API request: Request was aborted.
+2026-02-26T22:29:17.148Z [ERROR] Error: Error: Request was aborted.
+    at ihR (/$bunfs/root/claude:820:96594)
+    at next (native:1:11)
+    at E_0 (/$bunfs/root/claude:6022:6980)
+    at next (native:1:11)
+    at N_0 (/$bunfs/root/claude:6027:9145)
+    at processTicksAndRejections (native:7:39)
+2026-02-26T22:29:17.149Z [DEBUG] Writing to temp file: /Users/sagnikc/.claude.json.tmp.1822.1772144957149
+2026-02-26T22:29:17.149Z [DEBUG] Preserving file permissions: 100600
+2026-02-26T22:29:17.149Z [DEBUG] Temp file written successfully, size: 3800 bytes
+2026-02-26T22:29:17.149Z [DEBUG] Applied original permissions to temp file
+2026-02-26T22:29:17.149Z [DEBUG] Renaming /Users/sagnikc/.claude.json.tmp.1822.1772144957149 to /Users/sagnikc/.claude.json
+2026-02-26T22:29:17.149Z [DEBUG] File /Users/sagnikc/.claude.json written atomically
+2026-02-26T22:29:17.150Z [DEBUG] [useDeferredValue] Messages deferred by 1 (1→2)
+2026-02-26T22:29:17.154Z [DEBUG] Fast mode unavailable: Fast mode requires extra usage billing · /extra-usage to enable
+2026-02-26T22:29:17.157Z [DEBUG] High write ratio: blit=0, write=1113 (100.0% writes), screen=21x154
+2026-02-26T22:29:17.157Z [DEBUG] Stopped caffeinate, allowing sleep
+2026-02-26T22:29:17.162Z [DEBUG] Fast mode unavailable: Fast mode requires extra usage billing · /extra-usage to enable

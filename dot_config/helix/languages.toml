@@ -1,35 +1,15 @@
 [[language]]
 name = "python"
 language-servers = ["ruff"]
-auto-format = false
+auto-format = true
+scope = "source.python"
+
+[language.formatter]
+command = "ruff"
+args = ["format","-"]
 
 [language-server.ruff]
 command = "ruff"
 args = ["server"]
 
 
-[[language]]
-name = "go"
-language-servers = ["gopls"]
-auto-format = true
-indent = {tab-width=2,unit= " "}
-formatter = {command = "gofumpt"}
-
-[language-server.gopls]
-command = "gopls"
-
-[language-server.gopls.config]
-# diagnosticsTrigger = "Save"
-usePlaceholders = true
-staticcheck = true
-vulncheck = "Imports" # or "All"
-gofumpt = true
-
-[language-server.gopls.config.analyses]
-unusedfunc = true
-unusedparams = true
-unreachable = true
-unusedvariable = true
-
-[language-server.gopls.config.hints]
-compositeLiteralTypes = true
